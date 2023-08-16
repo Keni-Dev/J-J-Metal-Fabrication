@@ -1,22 +1,24 @@
 {
-  "name": "Hayroo",
+  "name": "J&J Metal Fabrication",
   "version": "1.0.0",
   "description": "A E-commerce website.",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon app.js && SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "nodemon app.js"
+    "start:dev": "nodemon app.js && SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hasan-py/MERN_Stack_Project_Hayroo_Ecommerce"
+    "url": "https://github.com/Keni-Dev/J-J-Metal-Fabrication"
   },
-  "author": "Hasan | https://hasan-py.github.io",
+  "author": "Keni",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hasan-py/MERN_Stack_Project_Hayroo_Ecommerce/issues"
+    "url": "https://github.com/Keni-Dev/J-J-Metal-Fabrication"
   },
-  "homepage": "https://github.com/hasan-py/MERN_Stack_Project_Hayroo_Ecommerce#readme",
+  "homepage": "https://github.com/Keni-Dev/J-J-Metal-Fabrication#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "braintree": "^3.0.0",

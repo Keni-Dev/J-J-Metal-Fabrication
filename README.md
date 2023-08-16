@@ -10,6 +10,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 NPM / Yarn and Node.js installed
 
+git branch -m master render-deploy-backend
+git fetch origin
+git branch -u origin/render-deploy-backend render-deploy-backend
+git remote set-head origin -a
+
 ### Installing
 
 Installing NPM modules on both client and server folders
